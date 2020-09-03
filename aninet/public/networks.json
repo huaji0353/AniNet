@@ -31,5 +31,10 @@
                 "url": "data/SoundEuphonium/03.json"
             }
         ]
-    }
+    },
+    {
+        "name": "轻音少女",
+        "titleImg": "",
+        "url": "data/Kon.json"
+    },
 ]
