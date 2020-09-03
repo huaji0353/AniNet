@@ -1,0 +1,256 @@
+{
+  "categories": {
+    "person": {
+      "label": "人物",
+      "color": "#66bbff"
+    },
+    "organization": {
+      "label": "组织",
+      "color": "#ff9c9c"
+    }
+  },
+  "data": {
+    "nodes": [
+      {
+        "label": "轻音部",
+        "image": "imgs/Kon/qingyinbu.png",
+        "id": 0,
+        "categorie": "organization",
+        "info": "",
+        "link": ""
+      },
+      {
+        "id": 1,
+        "label": "平泽唯",
+        "categorie": "person",
+        "info": "呆唯",
+        "image": "",
+        "link": ""
+      },
+      {
+        "id": 2,
+        "label": "秋山澪",
+        "categorie": "person",
+        "info": "蓝白碗",
+        "image": "",
+        "link": ""
+      },
+      {
+        "id": 3,
+        "label": "田井中律",
+        "categorie": "person",
+        "info": "光额头",
+        "image": "",
+        "link": ""
+      },
+      {
+        "id": 4,
+        "label": "琴吹䌷",
+        "categorie": "person",
+        "info": "有力气的大小姐",
+        "image": "",
+        "link": ""
+      },
+      {
+        "id": 5,
+        "label": "中野梓",
+        "categorie": "person",
+        "info": "梓喵",
+        "image": "",
+        "link": ""
+      },
+      {
+        "id": 6,
+        "label": "平泽忧",
+        "categorie": "person",
+        "info": "没有忧的唯什么都做不了",
+        "image": "",
+        "link": ""
+      },
+      {
+        "id": 7,
+        "label": "山中佐和子",
+        "categorie": "person",
+        "info": "",
+        "image": "",
+        "link": ""
+      },
+      {
+        "id": 8,
+        "label": "真锅和",
+        "categorie": "person",
+        "info": "",
+        "image": "",
+        "link": ""
+      },
+      {
+        "id": 9,
+        "label": "铃木纯",
+        "categorie": "person",
+        "info": "",
+        "image": "",
+        "link": ""
+      },
+      {
+        "id": 10,
+        "label": "班级",
+        "categorie": "organization",
+        "info": "班级",
+        "image": "",
+        "link": ""
+      }
+    ],
+    "edges": [
+      {
+        "id": 1,
+        "label": "成员",
+        "direction": true,
+        "info": "",
+        "image": "",
+        "link": "",
+        "to": "0",
+        "from": "1"
+      },
+      {
+        "id": 2,
+        "label": "成员",
+        "direction": true,
+        "info": "",
+        "image": "",
+        "link": "",
+        "to": "0",
+        "from": "2"
+      },
+      {
+        "id": 3,
+        "label": "成员",
+        "direction": true,
+        "info": "",
+        "image": "",
+        "link": "",
+        "to": "0",
+        "from": "3"
+      },
+      {
+        "id": 4,
+        "label": "成员",
+        "direction": true,
+        "info": "",
+        "image": "",
+        "link": "",
+        "to": "0",
+        "from": "4"
+      },
+      {
+        "id": 5,
+        "label": "成员",
+        "direction": true,
+        "info": "",
+        "image": "",
+        "link": "",
+        "to": "0",
+        "from": "5"
+      },
+      {
+        "id": 6,
+        "label": "姐妹",
+        "direction": false,
+        "info": "",
+        "image": "",
+        "link": "",
+        "to": "1",
+        "from": "6"
+      },
+      {
+        "id": 7,
+        "label": "顾问",
+        "direction": true,
+        "info": "",
+        "image": "",
+        "link": "",
+        "from": "0",
+        "to": "7"
+      },
+      {
+        "id": 8,
+        "label": "学生",
+        "direction": true,
+        "info": "",
+        "image": "",
+        "link": "",
+        "from": "1",
+        "to": "10"
+      },
+      {
+        "id": 9,
+        "label": "学生",
+        "direction": true,
+        "info": "",
+        "image": "",
+        "link": "",
+        "from": "2",
+        "to": "10"
+      },
+      {
+        "id": 10,
+        "label": "学生",
+        "direction": true,
+        "info": "",
+        "image": "",
+        "link": "",
+        "from": "3",
+        "to": "10"
+      },
+      {
+        "id": 11,
+        "label": "学生",
+        "direction": true,
+        "info": "",
+        "image": "",
+        "link": "",
+        "from": "4",
+        "to": "10"
+      },
+      {
+        "id": 12,
+        "label": "班主任",
+        "direction": true,
+        "info": "",
+        "image": "",
+        "link": "",
+        "to": "7",
+        "from": "10"
+      },
+      {
+        "id": 13,
+        "label": "班长",
+        "direction": true,
+        "info": "",
+        "image": "",
+        "link": "",
+        "to": "8",
+        "from": "10"
+      },
+      {
+        "id": 14,
+        "label": "朋友",
+        "direction": false,
+        "info": "",
+        "image": "",
+        "link": "",
+        "from": "6",
+        "to": "9"
+      },
+      {
+        "id": 15,
+        "label": "朋友",
+        "direction": false,
+        "info": "",
+        "image": "",
+        "link": "",
+        "from": "1",
+        "to": "8"
+      }
+    ]
+  }
+}
